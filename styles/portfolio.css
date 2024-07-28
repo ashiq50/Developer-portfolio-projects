@@ -50,14 +50,74 @@ nav a {
 /* header related styles */
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
+/* banner related styles */
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .banner .banner-img {
-  /* 1699492_P3OLGJ1 1 */
   width: 500px;
+}
+.banner-greeting {
+  color: rgb(71, 71, 71);
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.banner-title {
+  color: rgb(24, 24, 24);
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.banner-description {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styes */
+
+.about {
+  border-radius: 10px;
+  background-color: #fff8f3;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  padding: 50px 130px;
+}
+
+.about-title {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-description {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    text-align: center;
 }
