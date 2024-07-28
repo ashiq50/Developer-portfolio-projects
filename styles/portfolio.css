@@ -1,0 +1,46 @@
+/* shared styles */
+body {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: 0;
+}
+/* nav related styles */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.nav-r{
+    color: #FD6E0A;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
